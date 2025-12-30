@@ -1,1 +1,1 @@
-task.spawn(function()while task.wait()do if _G.keyFound~=true then local a;a=hookmetamethod(game,"__index",newcclosure(function(self,b)if b:lower()=="kick"then return game.Players.LocalPlayer.Kick end;return a(self,b)end))game:GetService("Players").LocalPlayer:Kick("")end end end)
+
